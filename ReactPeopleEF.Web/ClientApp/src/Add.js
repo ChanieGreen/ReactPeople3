@@ -42,7 +42,7 @@ export default class Add extends React.Component {
         return (
             <div className="container">
                 <div className="row">
-                    <h1>Add Person</h1>
+                    <h1>Add</h1>
                     <input name="firstName" value={firstName} onChange={this.onInputChange} className="form-control" placeholder="First Name" style={style} />
                     <input name="lastName" value={lastName} onChange={this.onInputChange} className="form-control" placeholder="Last Name" style={style} />
                     <input name="age" value={age} onChange={this.onInputChange} className="form-control" placeholder="Age" style={style} />
